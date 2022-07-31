@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+nav {
+    border-bottom: 7px solid #8bcf3f;
+}
+
+.blue-nav {
+    border-bottom: 7px solid #3a82ee;
+}
+
+.purple-nav {
+    border-bottom: 7px solid #9453a6;
+}
+
+.yellow-nav {
+    border-bottom: 7px solid #f2cc0f;
+}
+
+.orange-nav {
+    border-bottom: 7px solid #f2930f;
+}
+
+a.navbar-brand {
+    width: 9%;
+}
+
+a.green-text, h1.green-text {
+    color: #8bcf3f;
+}
+
+a.blue-text {
+    color: #3a82ee;
+}
+
+a.purple-text {
+    color: #9453a6;
+}
+
+a.yellow-text {
+    color: #f2cc0f;
+}
+
+a.orange-text {
+    color: #f2930f;
+}
+
+
+.green-hover:hover {
+    color: #8bcf3f;
+}
+
+.blue-hover:hover {
+    color: #3a82ee;
+}
+
+.purple-hover:hover {
+    color: #9453a6;
+}
+
+.yellow-hover:hover {
+    color: #f2cc0f;
+}
+
+.orange-hover:hover {
+    color: #f2930f;
+}
+
+
+h1, h2 {
+    font-family: 'Pattaya', sans-serif ;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2.h2-green {
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(90deg, #8bcf3f, #729f3a);
+    background-clip: text;
+}
+
+.h1-blue {
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(90deg, #99bdf3, #3a82ee);;
+    background-clip: text;
+}
+
+.h1-purple {
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(90deg, #a58cad, #9453a6,);
+    background-clip: text;
+}
+
+.h1-yellow {
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(90deg, #edde95, #f2cc0f,);
+    background-clip: text;
+}
+
+.h1-orange {
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(90deg, #edc997, #f2930f);
+    background-clip: text;
+}
+
+p {
+    font-size: 18px;
+}
+
+.card-group {
+    background-image: linear-gradient(90deg,#b7e780, #9de748, #729f3a);
+}
+.card {
+    margin: 8px;
+}
+
+.bottom a {
+    background-color: white;
+    margin: 5px;
+}
+
+.bottom-blue {
+    background-image: linear-gradient(90deg, #c5d6f1, #99bdf3, #3a82ee);
+}
+
+.bottom-purple {
+    background-image: linear-gradient(90deg, #a58cad, #9453a6, #902cab)
+}
+
+.bottom-yellow {
+    background-image: linear-gradient(90deg,#ece4bc, #edde95, #f2cc0f);
+}
+
+.bottom-orange {
+    background-image: linear-gradient(90deg, #eed2ab, #eebe79, #f2930f);
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 100px;
+}
+
+.row img {
+    cursor: pointer;
+}
